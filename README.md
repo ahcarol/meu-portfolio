@@ -28,4 +28,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Meu portfólio
 
-- [Acesse o projeto finalizado, online](https://ahcarol.github.io/projeto-ods/)
+- [Acesse o projeto finalizado, online](https://ahcarol.github.io/meu-portfolio/)
