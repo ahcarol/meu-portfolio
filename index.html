@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/mediaqueries.css">    
+
+    <title>Portfólio Carolina Dutra</title>
+
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Carol Dutra</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Carol Dutra</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experiência</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projetos</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+            </div>
+        </div>
+        
+      </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/img/profile-pic.png" alt="Carol Dutra foto profile">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="tittle">Carol Dutra</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contato Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/img/linkedin.png" alt="meu perfil linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/carolina-dutra-7bb989226/' ">
+
+                <img src="./assets/img/github.png" alt="meu perfil github"  class="icon" onclick="location.href='https://github.com/ahcarol'" >
+            </div>
+        </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Conheça Mais</p>
+      <h1 class="tittle">Sobre mim</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/img/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/img/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiência</h3>
+              <p>10 meses <br />Desenvolvimento Front-End</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/img/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Educação</h3>
+              <p>Bacherel em Medicina Veterinária<br /> Estudante de Programação - JA Brasil ElasNaTech </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Com uma sólida formação em Medicina Veterinária, desenvolvi habilidades valiosas em cuidados
+              com animais, diagnóstico e solução de problemas complexos. No entanto, movida por um profundo
+              interesse em tecnologia e design digital, decidi realizar uma transição de carreira para a
+              programação Front-End.
+              Minha determinação e sede de aprendizado me permitiram adquirir habilidades técnicas em
+              linguagens como HTML, CSS e JavaScript. Ao combinar minha experiência anterior em Medicina
+              Veterinária com as novas competências em programação, sou capaz de abordar desafios de maneira
+              única, analítica e criativa.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/img/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore a minha</p>
+        <h1 class="tittle">Experiência</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Desenvolvimento Front-end</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Avançado</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Avançado</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Figma</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>UX/UI Design</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Outras Skills</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Photoshop</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>After Effects</h3>
+                    <p>Intermediário</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Adobe</h3>
+                    <p>Intermediário</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/img/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Illustrator</h3>
+                    <p>Básico</p>
+                  </div>
+                </article>
+                <article>
+                    <img
+                      src="./assets/img/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Google Services</h3>
+                      <p>Intermediário</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/img/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Inglês (B2)</h3>
+                      <p>Intermediário-avançado</p>
+                    </div>
+                  </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/img/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Navegue nos meus</p>
+      <h1 class="tittle">Projetos Recentes</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/img/Project-1.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto ODS 6</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ahcarol/projeto-ods6'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ahcarol.github.io/projeto-ods6/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/img/Projeto 4.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto Cardápio</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ahcarol/brigaderia-warehouse'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ahcarol.github.io/brigaderia-warehouse/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/img/Projeto-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto Zelda TOTK</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ahcarol/zelda'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ahcarol.github.io/zelda/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/img/Projeto 5.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Projeto Valorant</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/ahcarol/projeto-valorant'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://ahcarol.github.io/projeto-valorant/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/img/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Entre em contato</p>
+        <h1 class="tittle">Fale Comigo</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/img/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:dutracarol001@gmail.com">dutracarol001@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/img/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/carolina-dutra-7bb989226/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#experience">Experiência</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
+   <script src="assets/js/main.js"></script> 
+</body>
+</html>
